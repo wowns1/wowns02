@@ -138,6 +138,8 @@ table {
 }
 
 body {
+  background-image: url('/pages/images/background.png') !important; /* 이미지 경로 확인 필수! */
+  background-size: cover !important;
   -webkit-text-size-adjust: none;
 }
 
@@ -210,7 +212,7 @@ body,
 input,
 select,
 textarea {
-  color: #585858;
+  color: #cfcfcf;
   font-family: "Source Sans Pro", Helvetica, sans-serif;
   font-size: 16pt;
   font-weight: 300;
@@ -3324,8 +3326,8 @@ body.is-menu-visible #menu .close {
 /* Footer */
 
 #footer {
-  padding: 5em 0 6em 0;
-  background-color: #f6f6f6;
+  padding: 0em 0 4em 0;
+  background-color: #f6f6f600;
 }
 
 #footer > .inner {
